@@ -10,3 +10,7 @@ func (d deck) print() {
 		fmt.Println(i, card)
 	}
 }
+
+func newDeck() deck {
+	return deck{"hello", "ahdd"}
+}
